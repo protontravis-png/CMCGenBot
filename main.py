@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext
 
 # Your bot token here
-TOKEN = 'YOUR_BOT_TOKEN_HERE'
+TOKEN = '8336351166:AAE5CCcjCEPMHBDzxT9G21gl_Tg0YbMUdvI'
 
 def start(update: Update, context: CallbackContext):
     update.message.reply_text("Hello, World!")
